@@ -1,0 +1,35 @@
+SkipTrie with a SkipList of depth 6 (~ av. # of hits in 64-bit X-Trie):
+	 - has performance characteristic essentially equal to a regular SkipList
+	 - possible explanation: only 1 in 2^6 items goes to X-Trie -> not enough to affect perf
+	 - X-Trie is faster due to L2 cache locality, but with 1/2^6 items in X-Trie, the cache perf of SkipTrie unaffected
+
+conclusion:
+	- we're essentially trading X-Trie's L2 locality (~20% diff) over SkipList's lack of thereof
+	- speed improvement ~ improv. in L2 locality
+	- due to skiptrie's proportions, speed improv ~ 20%/2^6 (or whatever depth)
+
+to-do:
+	- run skiptrie with depth 4, 2 and 1;
+	- 4 should be faster				<- must be true for the conclustion to hold
+	- 1 should be pretty much same as pure X-Trie 	<- must be true for the conclusion to hold
+	
+ISSUE:
+	- in a regular SkipList -> 28 steps are replaced with:
+	     - 6 steps in just the X-Trie
+	     - 6 + 6 steps in SkipTrie -> top 22 steps replaced with 6 steps in X-Trie; 
+	       	   test the perf of:
+		   	- just X-Trie queries in the SkipTrie	-> expected: super fast
+			- just top 22 levels in SkipList      	-> expected: super fast
+			- number of "moves right" in the top 22 levels and in the bottom 6 levels
+			  	 [expect: few in the top 22 and many in the bottom 6]
+
+
+in the top part we make n/2^6 moves right, to even out with X-Trie we need 
+    there n/2^6 items on the 6-th level of SkipList
+    we make exactly log (n/2^6) = (log n) - 6 moves to the right in the top (everything - 6 bottom levels) part 
+ of the skip list 
+
+ by replacing that with X-Trie, we have 6 memory probes instead of (log n) - 6
+ so for n > 2^12 we should start winning;
+
+

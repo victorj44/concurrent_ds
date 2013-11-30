@@ -1,0 +1,104 @@
+
+cpu-cycles 
+stalled-cycles-frontend
+stalled-cycles-backend
+instructions          
+cache-references      
+cache-misses          
+branch-instructions OR branches
+branch-misses                  
+bus-cycles                     
+cpu-clock                      
+task-clock                     
+page-faults OR faults          
+minor-faults                   
+major-faults                   
+context-switches OR cs         
+cpu-migrations OR migrations   
+alignment-faults               
+emulation-faults               
+L1-dcache-loads                
+L1-dcache-load-misses          
+L1-dcache-stores               
+L1-dcache-store-misses         
+L1-dcache-prefetches           
+L1-dcache-prefetch-misses      
+L1-icache-loads                
+L1-icache-load-misses          
+L1-icache-prefetches           
+L1-icache-prefetch-misses      
+LLC-loads                      
+LLC-load-misses                
+LLC-stores                     
+LLC-store-misses               
+LLC-prefetches                 
+LLC-prefetch-misses            
+dTLB-loads                     
+dTLB-load-misses               
+dTLB-stores                    
+dTLB-store-misses              
+dTLB-prefetches
+dTLB-prefetch-misses           
+iTLB-loads                     
+iTLB-load-misses               
+branch-loads                   
+branch-load-misses             
+node-loads                     
+node-load-misses               
+node-stores                    
+node-store-misses              
+node-prefetches                
+node-prefetch-misses
+
+
+
+-e cpu-cycles \
+-e stalled-cycles-frontend \
+-e stalled-cycles-backend \
+-e instructions          \
+-e cache-references      \
+-e cache-misses          \
+-e branch-instructions OR branches \
+-e branch-misses                  \
+-e bus-cycles                     \
+-e cpu-clock                      \
+-e task-clock                     \
+-e page-faults OR faults          \
+-e minor-faults                   \
+-e major-faults                   \
+-e context-switches OR cs         \
+-e cpu-migrations OR migrations   \
+-e alignment-faults               \
+-e emulation-faults               \
+-e L1-dcache-loads                \
+-e L1-dcache-load-misses          \
+-e L1-dcache-stores               \
+-e L1-dcache-store-misses         \
+-e L1-dcache-prefetches           \
+-e L1-dcache-prefetch-misses      \
+-e L1-icache-loads                \
+-e L1-icache-load-misses          \
+-e L1-icache-prefetches           \
+-e L1-icache-prefetch-misses      \
+-e LLC-loads                      \
+-e LLC-load-misses                \
+-e LLC-stores                     \
+-e LLC-store-misses               \
+-e LLC-prefetches                 \
+-e LLC-prefetch-misses            \
+-e dTLB-loads                     \
+-e dTLB-load-misses               \
+-e dTLB-stores                    \
+-e dTLB-store-misses              \
+-e dTLB-prefetches \
+-e dTLB-prefetch-misses           \
+-e iTLB-loads                     \
+-e iTLB-load-misses               \
+-e branch-loads                   \
+-e branch-load-misses             \
+-e node-loads                     \
+-e node-load-misses               \
+-e node-stores                    \
+-e node-store-misses              \
+-e node-prefetches                \
+-e node-prefetch-misses \

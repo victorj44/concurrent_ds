@@ -1,0 +1,5 @@
+numactl for cool stuff:
+	numactl --cpunodebind=1-3 ./perf_test 40 500000
+
+PAPI library
+

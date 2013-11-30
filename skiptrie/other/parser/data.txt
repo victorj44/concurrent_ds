@@ -1,0 +1,945 @@
+X-Trie with 10 threads
+***********
+nthreads = 10
+maxn = 100, nthreads = 10, NREP = 320000, querylen = 10
+query time = 0.531397
+total items = 179
+total # of items on this level = 2
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16960000 32000000
+
+ Performance counter stats for './perf_test 10 100':
+
+    11,375,142,452 cpu-cycles                #    0.000 GHz                     [49.43%]
+    12,858,150,454 instructions              #    1.13  insns per cycle         [61.72%]
+           164,338 cache-references                                             [61.90%]
+            43,002 cache-misses              #   26.167 % of all cache refs     [62.53%]
+     2,622,239,862 L1-dcache-loads                                              [63.11%]
+           209,608 L1-dcache-load-misses     #    0.01% of all L1-dcache hits   [63.51%]
+            21,945 LLC-loads                                                    [50.84%]
+             3,276 LLC-load-misses           #   14.93% of all LL-cache hits    [50.15%]
+
+       0.544452287 seconds time elapsed
+
+
+real   0m0.562s
+user   0m4.744s
+sys    0m0.028s
+***********
+nthreads = 10
+maxn = 500, nthreads = 10, NREP = 64000, querylen = 50
+query time = 0.683305
+total items = 973
+total # of items on this level = 10
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 14912000 32000000
+
+ Performance counter stats for './perf_test 10 500':
+
+    15,641,984,815 cpu-cycles                #    0.000 GHz                     [49.37%]
+    13,331,506,010 instructions              #    0.85  insns per cycle         [62.16%]
+           398,648 cache-references                                             [62.31%]
+            40,110 cache-misses              #   10.062 % of all cache refs     [62.75%]
+     2,813,014,339 L1-dcache-loads                                              [63.22%]
+       124,095,540 L1-dcache-load-misses     #    4.41% of all L1-dcache hits   [63.34%]
+            30,682 LLC-loads                                                    [50.30%]
+             5,894 LLC-load-misses           #   19.21% of all LL-cache hits    [49.80%]
+
+       0.685724075 seconds time elapsed
+
+
+real   0m0.700s
+user   0m6.544s
+sys    0m0.012s
+***********
+nthreads = 10
+maxn = 1000, nthreads = 10, NREP = 32000, querylen = 100
+query time = 0.799876
+total items = 1934
+total # of items on this level = 15
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15488000 32000000
+
+ Performance counter stats for './perf_test 10 1000':
+
+    17,925,980,323 cpu-cycles                #    0.000 GHz                     [49.60%]
+    13,168,853,832 instructions              #    0.73  insns per cycle         [62.38%]
+           835,936 cache-references                                             [62.50%]
+            52,669 cache-misses              #    6.301 % of all cache refs     [62.80%]
+     2,750,977,792 L1-dcache-loads                                              [63.03%]
+       341,968,639 L1-dcache-load-misses     #   12.43% of all L1-dcache hits   [63.00%]
+           398,448 LLC-loads                                                    [50.13%]
+             7,296 LLC-load-misses           #    1.83% of all LL-cache hits    [49.78%]
+
+       0.802411930 seconds time elapsed
+
+
+real   0m0.820s
+user   0m7.504s
+sys    0m0.008s
+***********
+nthreads = 10
+maxn = 2000, nthreads = 10, NREP = 16000, querylen = 200
+query time = 0.919591
+total items = 4064
+total # of items on this level = 38
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15936000 32000000
+
+ Performance counter stats for './perf_test 10 2000':
+
+    21,445,284,710 cpu-cycles                #    0.000 GHz                     [49.81%]
+    13,222,097,358 instructions              #    0.62  insns per cycle         [62.37%]
+        12,848,644 cache-references                                             [62.45%]
+            82,837 cache-misses              #    0.645 % of all cache refs     [62.62%]
+     2,756,559,279 L1-dcache-loads                                              [62.76%]
+       558,470,650 L1-dcache-load-misses     #   20.26% of all L1-dcache hits   [62.84%]
+        11,604,366 LLC-loads                                                    [50.07%]
+             6,694 LLC-load-misses           #    0.06% of all LL-cache hits    [50.11%]
+
+       0.923404565 seconds time elapsed
+
+
+real   0m0.940s
+user   0m8.981s
+sys    0m0.008s
+***********
+nthreads = 10
+maxn = 4000, nthreads = 10, NREP = 8000, querylen = 400
+query time = 1.146121
+total items = 7939
+total # of items on this level = 60
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16320000 32000000
+
+ Performance counter stats for './perf_test 10 4000':
+
+    26,924,893,961 cpu-cycles                #    0.000 GHz                     [49.71%]
+    13,585,919,140 instructions              #    0.50  insns per cycle         [62.42%]
+       117,536,507 cache-references                                             [62.46%]
+           123,204 cache-misses              #    0.105 % of all cache refs     [62.58%]
+     2,905,711,107 L1-dcache-loads                                              [62.83%]
+       764,415,318 L1-dcache-load-misses     #   26.31% of all L1-dcache hits   [62.98%]
+       116,175,832 LLC-loads                                                    [50.09%]
+            10,308 LLC-load-misses           #    0.01% of all LL-cache hits    [49.96%]
+
+       1.151285719 seconds time elapsed
+
+
+real   0m1.167s
+user   0m11.273s
+sys    0m0.012s
+***********
+nthreads = 10
+maxn = 8000, nthreads = 10, NREP = 4000, querylen = 800
+query time = 1.445885
+total items = 15857
+total # of items on this level = 125
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16016000 32000000
+
+ Performance counter stats for './perf_test 10 8000':
+
+    33,677,177,532 cpu-cycles                #    0.000 GHz                     [50.06%]
+    13,638,070,171 instructions              #    0.40  insns per cycle         [62.49%]
+       408,844,841 cache-references                                             [62.42%]
+           190,920 cache-misses              #    0.047 % of all cache refs     [62.45%]
+     2,930,813,954 L1-dcache-loads                                              [62.50%]
+       947,351,336 L1-dcache-load-misses     #   32.32% of all L1-dcache hits   [62.62%]
+       407,810,219 LLC-loads                                                    [50.26%]
+            14,080 LLC-load-misses           #    0.00% of all LL-cache hits    [50.20%]
+
+       1.455220846 seconds time elapsed
+
+
+real   0m1.474s
+user   0m14.109s
+sys    0m0.012s
+***********
+nthreads = 10
+maxn = 16000, nthreads = 10, NREP = 2000, querylen = 1600
+query time = 1.741061
+total items = 31641
+total # of items on this level = 262
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15816000 32000000
+
+ Performance counter stats for './perf_test 10 16000':
+
+    41,132,586,169 cpu-cycles                #    0.000 GHz                     [50.30%]
+    13,735,600,510 instructions              #    0.33  insns per cycle         [62.76%]
+       644,148,126 cache-references                                             [62.61%]
+           133,215 cache-misses              #    0.021 % of all cache refs     [62.46%]
+     2,954,806,082 L1-dcache-loads                                              [62.37%]
+     1,150,898,155 L1-dcache-load-misses     #   38.95% of all L1-dcache hits   [62.47%]
+       642,738,149 LLC-loads                                                    [50.05%]
+           100,892 LLC-load-misses           #    0.02% of all LL-cache hits    [50.19%]
+
+       1.761492292 seconds time elapsed
+
+
+real   0m1.778s
+user   0m17.229s
+sys    0m0.008s
+***********
+nthreads = 10
+maxn = 32000, nthreads = 10, NREP = 1000, querylen = 3200
+query time = 2.007070
+total items = 63155
+total # of items on this level = 488
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15966000 32000000
+
+ Performance counter stats for './perf_test 10 32000':
+
+    45,724,257,752 cpu-cycles                #    0.000 GHz                     [50.15%]
+    13,664,073,767 instructions              #    0.30  insns per cycle         [62.73%]
+       787,579,093 cache-references                                             [62.77%]
+           398,706 cache-misses              #    0.051 % of all cache refs     [62.73%]
+     2,930,963,659 L1-dcache-loads                                              [62.56%]
+     1,272,502,275 L1-dcache-load-misses     #   43.42% of all L1-dcache hits   [62.40%]
+       786,279,294 LLC-loads                                                    [49.79%]
+           178,805 LLC-load-misses           #    0.02% of all LL-cache hits    [49.98%]
+
+       2.064200905 seconds time elapsed
+
+
+real   0m2.081s
+user   0m19.149s
+sys    0m0.024s
+***********
+nthreads = 10
+maxn = 64000, nthreads = 10, NREP = 500, querylen = 6400
+query time = 2.106954
+total items = 127357
+total # of items on this level = 1017
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15983000 32000000
+
+ Performance counter stats for './perf_test 10 64000':
+
+    50,243,152,222 cpu-cycles                #    0.000 GHz                     [49.97%]
+    13,812,366,462 instructions              #    0.27  insns per cycle         [62.44%]
+       936,581,762 cache-references                                             [62.47%]
+           974,055 cache-misses              #    0.104 % of all cache refs     [62.50%]
+     2,956,308,359 L1-dcache-loads                                              [62.54%]
+     1,428,835,929 L1-dcache-load-misses     #   48.33% of all L1-dcache hits   [62.63%]
+       935,584,524 LLC-loads                                                    [50.09%]
+            43,879 LLC-load-misses           #    0.00% of all LL-cache hits    [50.11%]
+
+       2.336815165 seconds time elapsed
+
+
+real   0m2.355s
+user   0m21.017s
+sys    0m0.020s
+***********
+nthreads = 10
+maxn = 128000, nthreads = 10, NREP = 250, querylen = 12800
+query time = 2.271199
+total items = 255080
+total # of items on this level = 2043
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16008000 32000000
+
+ Performance counter stats for './perf_test 10 128000':
+
+    56,781,454,209 cpu-cycles                #    0.000 GHz                     [50.06%]
+    14,266,369,529 instructions              #    0.25  insns per cycle         [62.50%]
+     1,110,169,530 cache-references                                             [62.36%]
+         1,112,620 cache-misses              #    0.100 % of all cache refs     [62.40%]
+     3,061,821,178 L1-dcache-loads                                              [62.49%]
+     1,641,103,942 L1-dcache-load-misses     #   53.60% of all L1-dcache hits   [62.57%]
+     1,103,910,689 LLC-loads                                                    [50.23%]
+           365,794 LLC-load-misses           #    0.03% of all LL-cache hits    [50.19%]
+
+       3.467444624 seconds time elapsed
+
+
+real   0m3.484s
+user   0m23.737s
+sys    0m0.028s
+***********
+nthreads = 10
+maxn = 256000, nthreads = 10, NREP = 125, querylen = 25600
+query time = 2.578407
+total items = 506940
+total # of items on this level = 4030
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16000125 32000000
+
+ Performance counter stats for './perf_test 10 256000':
+
+    76,694,605,345 cpu-cycles                #    0.000 GHz                     [49.95%]
+    15,874,540,887 instructions              #    0.21  insns per cycle         [62.44%]
+     1,492,602,768 cache-references                                             [62.43%]
+        11,698,604 cache-misses              #    0.784 % of all cache refs     [62.52%]
+     3,514,643,387 L1-dcache-loads                                              [62.59%]
+     2,210,759,541 L1-dcache-load-misses     #   62.90% of all L1-dcache hits   [62.61%]
+     1,486,808,279 LLC-loads                                                    [50.09%]
+        10,033,306 LLC-load-misses           #    0.67% of all LL-cache hits    [50.01%]
+
+       9.437800925 seconds time elapsed
+
+
+real   0m9.459s
+user   0m32.030s
+sys    0m0.056s
+***********
+nthreads = 10
+maxn = 512000, nthreads = 10, NREP = 62, querylen = 51200
+query time = 3.657340
+total items = 1017419
+total # of items on this level = 8253
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15882602 31744000
+
+ Performance counter stats for './perf_test 10 512000':
+
+   179,509,423,088 cpu-cycles                #    0.000 GHz                     [50.01%]
+    21,942,468,215 instructions              #    0.12  insns per cycle         [62.50%]
+     3,364,476,894 cache-references                                             [62.50%]
+       166,867,599 cache-misses              #    4.960 % of all cache refs     [62.51%]
+     5,211,763,565 L1-dcache-loads                                              [62.52%]
+     4,425,037,571 L1-dcache-load-misses     #   84.90% of all L1-dcache hits   [62.53%]
+     3,352,588,734 LLC-loads                                                    [50.01%]
+       163,982,558 LLC-load-misses           #    4.89% of all LL-cache hits    [50.00%]
+
+      43.257647772 seconds time elapsed
+
+
+real  0m43.277s
+user  1m15.005s
+sys   0m0.104s
+***************************
+X-Trie with 40 threads
+***********
+nthreads = 40
+maxn = 100, nthreads = 40, NREP = 320000, querylen = 2
+query time = 0.107590
+total items = 179
+total # of items on this level = 2
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 12800000 25600000
+
+ Performance counter stats for './perf_test 40 100':
+
+     7,830,867,756 cpu-cycles                #    0.000 GHz                     [45.23%]
+    10,201,951,334 instructions              #    1.30  insns per cycle         [59.54%]
+           247,964 cache-references                                             [61.09%]
+            79,321 cache-misses              #   31.989 % of all cache refs     [64.72%]
+     2,142,911,038 L1-dcache-loads                                              [68.05%]
+           170,038 L1-dcache-load-misses     #    0.01% of all L1-dcache hits   [69.20%]
+            22,326 LLC-loads                                                    [51.73%]
+             3,182 LLC-load-misses           #   14.25% of all LL-cache hits    [47.90%]
+
+       0.110432806 seconds time elapsed
+
+
+real   0m0.129s
+user   0m3.356s
+sys    0m0.008s
+***********
+nthreads = 40
+maxn = 500, nthreads = 40, NREP = 64000, querylen = 12
+query time = 0.166113
+total items = 973
+total # of items on this level = 10
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 14208000 30720000
+
+ Performance counter stats for './perf_test 40 500':
+
+    11,752,705,040 cpu-cycles                #    0.000 GHz                     [48.03%]
+    12,800,619,047 instructions              #    1.09  insns per cycle         [61.05%]
+           373,929 cache-references                                             [61.35%]
+            66,555 cache-misses              #   17.799 % of all cache refs     [62.37%]
+     2,693,428,580 L1-dcache-loads                                              [64.31%]
+        20,978,816 L1-dcache-load-misses     #    0.78% of all L1-dcache hits   [66.42%]
+            31,277 LLC-loads                                                    [52.17%]
+             2,605 LLC-load-misses           #    8.33% of all LL-cache hits    [50.33%]
+
+       0.168472193 seconds time elapsed
+
+
+real   0m0.186s
+user   0m4.936s
+sys    0m0.024s
+***********
+nthreads = 40
+maxn = 1000, nthreads = 40, NREP = 32000, querylen = 25
+query time = 0.226064
+total items = 1934
+total # of items on this level = 15
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15488000 32000000
+
+ Performance counter stats for './perf_test 40 1000':
+
+    14,477,688,694 cpu-cycles                #    0.000 GHz                     [47.31%]
+    13,060,385,747 instructions              #    0.90  insns per cycle         [60.81%]
+           588,803 cache-references                                             [61.60%]
+            92,930 cache-misses              #   15.783 % of all cache refs     [63.40%]
+     2,729,269,035 L1-dcache-loads                                              [65.11%]
+       139,171,018 L1-dcache-load-misses     #    5.10% of all L1-dcache hits   [66.22%]
+           164,171 LLC-loads                                                    [51.13%]
+             4,250 LLC-load-misses           #    2.59% of all LL-cache hits    [49.15%]
+
+       0.229234827 seconds time elapsed
+
+
+real   0m0.244s
+user   0m6.084s
+sys    0m0.016s
+***********
+nthreads = 40
+maxn = 2000, nthreads = 40, NREP = 16000, querylen = 50
+query time = 0.226896
+total items = 4064
+total # of items on this level = 38
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15936000 32000000
+
+ Performance counter stats for './perf_test 40 2000':
+
+    18,605,597,198 cpu-cycles                #    0.000 GHz                     [49.88%]
+    13,008,232,981 instructions              #    0.70  insns per cycle         [62.16%]
+         4,029,793 cache-references                                             [62.72%]
+            89,641 cache-misses              #    2.224 % of all cache refs     [63.24%]
+     2,758,252,299 L1-dcache-loads                                              [63.58%]
+       512,810,513 L1-dcache-load-misses     #   18.59% of all L1-dcache hits   [63.82%]
+         2,853,913 LLC-loads                                                    [50.15%]
+             5,056 LLC-load-misses           #    0.18% of all LL-cache hits    [50.04%]
+
+       0.230453166 seconds time elapsed
+
+
+real   0m0.248s
+user   0m7.976s
+sys    0m0.020s
+***********
+nthreads = 40
+maxn = 4000, nthreads = 40, NREP = 8000, querylen = 100
+query time = 0.260215
+total items = 7939
+total # of items on this level = 60
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16320000 32000000
+
+ Performance counter stats for './perf_test 40 4000':
+
+    23,721,438,234 cpu-cycles                #    0.000 GHz                     [49.26%]
+    13,600,750,480 instructions              #    0.57  insns per cycle         [61.52%]
+        13,015,549 cache-references                                             [61.69%]
+           152,065 cache-misses              #    1.168 % of all cache refs     [62.24%]
+     2,889,326,063 L1-dcache-loads                                              [63.10%]
+       744,104,646 L1-dcache-load-misses     #   25.75% of all L1-dcache hits   [64.31%]
+        11,744,608 LLC-loads                                                    [51.56%]
+             5,102 LLC-load-misses           #    0.04% of all LL-cache hits    [50.61%]
+
+       0.265547935 seconds time elapsed
+
+
+real   0m0.282s
+user   0m9.929s
+sys    0m0.028s
+***********
+nthreads = 40
+maxn = 8000, nthreads = 40, NREP = 4000, querylen = 200
+query time = 0.333566
+total items = 15857
+total # of items on this level = 125
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16016000 32000000
+
+ Performance counter stats for './perf_test 40 8000':
+
+    29,656,264,741 cpu-cycles                #    0.000 GHz                     [50.84%]
+    13,611,984,999 instructions              #    0.46  insns per cycle         [62.75%]
+       212,521,471 cache-references                                             [61.73%]
+           219,255 cache-misses              #    0.103 % of all cache refs     [61.88%]
+     2,924,330,170 L1-dcache-loads                                              [62.26%]
+       935,776,712 L1-dcache-load-misses     #   32.00% of all L1-dcache hits   [62.60%]
+       211,121,461 LLC-loads                                                    [51.37%]
+             9,805 LLC-load-misses           #    0.00% of all LL-cache hits    [51.53%]
+
+       0.342485020 seconds time elapsed
+
+
+real   0m0.358s
+user   0m12.521s
+sys    0m0.012s
+***********
+nthreads = 40
+maxn = 16000, nthreads = 40, NREP = 2000, querylen = 400
+query time = 0.488945
+total items = 31641
+total # of items on this level = 262
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15816000 32000000
+
+ Performance counter stats for './perf_test 40 16000':
+
+    40,972,759,954 cpu-cycles                #    0.000 GHz                     [50.99%]
+    13,719,436,387 instructions              #    0.33  insns per cycle         [63.34%]
+       624,266,356 cache-references                                             [63.30%]
+           124,473 cache-misses              #    0.020 % of all cache refs     [62.57%]
+     2,950,656,667 L1-dcache-loads                                              [61.99%]
+     1,146,516,028 L1-dcache-load-misses     #   38.86% of all L1-dcache hits   [61.80%]
+       618,946,417 LLC-loads                                                    [50.08%]
+           100,848 LLC-load-misses           #    0.02% of all LL-cache hits    [50.66%]
+
+       0.509222592 seconds time elapsed
+
+
+real   0m0.526s
+user   0m17.165s
+sys    0m0.028s
+***********
+nthreads = 40
+maxn = 32000, nthreads = 40, NREP = 1000, querylen = 800
+query time = 0.568850
+total items = 63155
+total # of items on this level = 488
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15966000 32000000
+
+ Performance counter stats for './perf_test 40 32000':
+
+    46,243,532,301 cpu-cycles                #    0.000 GHz                     [49.90%]
+    13,636,045,693 instructions              #    0.29  insns per cycle         [62.63%]
+       782,955,141 cache-references                                             [62.90%]
+           249,038 cache-misses              #    0.032 % of all cache refs     [63.39%]
+     2,919,601,276 L1-dcache-loads                                              [63.13%]
+     1,273,051,429 L1-dcache-load-misses     #   43.60% of all L1-dcache hits   [62.65%]
+       783,677,465 LLC-loads                                                    [49.61%]
+           184,653 LLC-load-misses           #    0.02% of all LL-cache hits    [49.75%]
+
+       0.624660033 seconds time elapsed
+
+
+real   0m0.639s
+user   0m19.353s
+sys    0m0.036s
+***********
+nthreads = 40
+maxn = 64000, nthreads = 40, NREP = 500, querylen = 1600
+query time = 0.625248
+total items = 127357
+total # of items on this level = 1017
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15983000 32000000
+
+ Performance counter stats for './perf_test 40 64000':
+
+    51,289,178,533 cpu-cycles                #    0.000 GHz                     [49.56%]
+    13,665,717,316 instructions              #    0.27  insns per cycle         [62.31%]
+       927,874,527 cache-references                                             [62.57%]
+         1,028,657 cache-misses              #    0.111 % of all cache refs     [62.94%]
+     2,953,969,316 L1-dcache-loads                                              [63.13%]
+     1,429,059,691 L1-dcache-load-misses     #   48.38% of all L1-dcache hits   [63.22%]
+       932,950,234 LLC-loads                                                    [50.19%]
+            49,494 LLC-load-misses           #    0.01% of all LL-cache hits    [49.65%]
+
+       0.856855482 seconds time elapsed
+
+
+real   0m0.875s
+user   0m21.585s
+sys    0m0.020s
+***********
+nthreads = 40
+maxn = 128000, nthreads = 40, NREP = 250, querylen = 3200
+query time = 0.581826
+total items = 255080
+total # of items on this level = 2043
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16008000 32000000
+
+ Performance counter stats for './perf_test 40 128000':
+
+    57,564,133,272 cpu-cycles                #    0.000 GHz                     [50.08%]
+    14,262,570,103 instructions              #    0.25  insns per cycle         [62.27%]
+     1,125,361,085 cache-references                                             [62.27%]
+         1,923,560 cache-misses              #    0.171 % of all cache refs     [62.28%]
+     3,061,076,130 L1-dcache-loads                                              [62.35%]
+     1,635,082,602 L1-dcache-load-misses     #   53.42% of all L1-dcache hits   [62.78%]
+     1,118,514,947 LLC-loads                                                    [50.64%]
+            90,684 LLC-load-misses           #    0.01% of all LL-cache hits    [50.55%]
+
+       1.834554905 seconds time elapsed
+
+
+real   0m1.852s
+user   0m24.070s
+sys    0m0.044s
+***********
+nthreads = 40
+maxn = 256000, nthreads = 40, NREP = 125, querylen = 6400
+query time = 0.788242
+total items = 506940
+total # of items on this level = 4030
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16000125 32000000
+
+ Performance counter stats for './perf_test 40 256000':
+
+    80,478,569,655 cpu-cycles                #    0.000 GHz                     [50.30%]
+    15,919,900,671 instructions              #    0.20  insns per cycle         [62.63%]
+     1,490,848,734 cache-references                                             [62.20%]
+        10,592,131 cache-misses              #    0.710 % of all cache refs     [62.08%]
+     3,506,060,995 L1-dcache-loads                                              [62.37%]
+     2,192,585,036 L1-dcache-load-misses     #   62.54% of all L1-dcache hits   [62.62%]
+     1,475,677,029 LLC-loads                                                    [50.53%]
+        10,575,106 LLC-load-misses           #    0.72% of all LL-cache hits    [50.64%]
+
+       7.720305062 seconds time elapsed
+
+
+real   0m7.738s
+user   0m33.686s
+sys    0m0.044s
+***********
+nthreads = 40
+maxn = 512000, nthreads = 40, NREP = 62, querylen = 12800
+query time = 1.060444
+total items = 1017419
+total # of items on this level = 8253
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15882602 31744000
+
+ Performance counter stats for './perf_test 40 512000':
+
+   181,843,155,059 cpu-cycles                #    0.000 GHz                     [50.08%]
+    21,965,692,982 instructions              #    0.12  insns per cycle         [62.51%]
+     3,355,373,534 cache-references                                             [62.37%]
+       163,929,512 cache-misses              #    4.886 % of all cache refs     [62.44%]
+     5,209,302,777 L1-dcache-loads                                              [62.51%]
+     4,420,842,842 L1-dcache-load-misses     #   84.86% of all L1-dcache hits   [62.57%]
+     3,333,930,720 LLC-loads                                                    [50.22%]
+       161,693,798 LLC-load-misses           #    4.85% of all LL-cache hits    [50.15%]
+
+      40.663708117 seconds time elapsed
+
+
+real  0m40.683s
+user  1m16.089s
+sys   0m0.104s
+***************************
+X-Trie with 80 threads
+***********
+nthreads = 80
+maxn = 100, nthreads = 80, NREP = 320000, querylen = 1
+query time = 0.088249
+total items = 179
+total # of items on this level = 2
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 12800000 25600000
+
+ Performance counter stats for './perf_test 80 100':
+
+     9,707,036,747 cpu-cycles                #    0.000 GHz                     [49.63%]
+    10,050,129,959 instructions              #    1.04  insns per cycle         [60.47%]
+           387,799 cache-references                                             [60.99%]
+           127,855 cache-misses              #   32.969 % of all cache refs     [63.03%]
+     2,299,164,765 L1-dcache-loads                                              [65.24%]
+           437,988 L1-dcache-load-misses     #    0.02% of all L1-dcache hits   [66.81%]
+            32,321 LLC-loads                                                    [53.59%]
+             3,382 LLC-load-misses           #   10.46% of all LL-cache hits    [52.83%]
+
+       0.090994892 seconds time elapsed
+
+
+real   0m0.108s
+user   0m4.304s
+sys    0m0.028s
+***********
+nthreads = 80
+maxn = 500, nthreads = 80, NREP = 64000, querylen = 6
+query time = 0.101793
+total items = 973
+total # of items on this level = 10
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 14208000 30720000
+
+ Performance counter stats for './perf_test 80 500':
+
+    16,188,735,246 cpu-cycles                #    0.000 GHz                     [47.07%]
+    13,052,732,748 instructions              #    0.81  insns per cycle         [58.29%]
+           437,764 cache-references                                             [58.54%]
+           130,166 cache-misses              #   29.734 % of all cache refs     [60.62%]
+     2,649,736,064 L1-dcache-loads                                              [64.94%]
+         6,049,541 L1-dcache-load-misses     #    0.23% of all L1-dcache hits   [69.30%]
+            54,156 LLC-loads                                                    [55.44%]
+             6,449 LLC-load-misses           #   11.91% of all LL-cache hits    [51.65%]
+
+       0.104713543 seconds time elapsed
+
+
+real   0m0.120s
+user   0m6.776s
+sys    0m0.020s
+***********
+nthreads = 80
+maxn = 1000, nthreads = 80, NREP = 32000, querylen = 12
+query time = 0.112758
+total items = 1934
+total # of items on this level = 15
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 14944000 30720000
+
+ Performance counter stats for './perf_test 80 1000':
+
+    17,559,388,833 cpu-cycles                #    0.000 GHz                     [51.38%]
+    12,473,087,696 instructions              #    0.71  insns per cycle         [62.59%]
+           572,218 cache-references                                             [62.78%]
+           145,697 cache-misses              #   25.462 % of all cache refs     [63.09%]
+     2,688,126,072 L1-dcache-loads                                              [63.13%]
+        72,082,395 L1-dcache-load-misses     #    2.68% of all L1-dcache hits   [63.47%]
+           113,324 LLC-loads                                                    [50.76%]
+             2,988 LLC-load-misses           #    2.64% of all LL-cache hits    [52.49%]
+
+       0.115743008 seconds time elapsed
+
+
+real   0m0.131s
+user   0m7.696s
+sys    0m0.024s
+***********
+nthreads = 80
+maxn = 2000, nthreads = 80, NREP = 16000, querylen = 25
+query time = 0.136852
+total items = 4064
+total # of items on this level = 38
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15936000 32000000
+
+ Performance counter stats for './perf_test 80 2000':
+
+    23,567,588,837 cpu-cycles                #    0.000 GHz                     [51.14%]
+    13,163,713,369 instructions              #    0.56  insns per cycle         [62.36%]
+        11,043,786 cache-references                                             [62.20%]
+           139,432 cache-misses              #    1.263 % of all cache refs     [62.20%]
+     2,787,779,411 L1-dcache-loads                                              [62.41%]
+       477,825,809 L1-dcache-load-misses     #   17.14% of all L1-dcache hits   [63.12%]
+        10,544,193 LLC-loads                                                    [51.32%]
+             4,899 LLC-load-misses           #    0.05% of all LL-cache hits    [52.79%]
+
+       0.140360847 seconds time elapsed
+
+
+real   0m0.156s
+user   0m10.117s
+sys    0m0.012s
+***********
+nthreads = 80
+maxn = 4000, nthreads = 80, NREP = 8000, querylen = 50
+query time = 0.200682
+total items = 7939
+total # of items on this level = 60
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16320000 32000000
+
+ Performance counter stats for './perf_test 80 4000':
+
+    27,920,348,265 cpu-cycles                #    0.000 GHz                     [51.27%]
+    13,438,588,348 instructions              #    0.48  insns per cycle         [62.56%]
+        14,765,003 cache-references                                             [61.12%]
+           207,555 cache-misses              #    1.406 % of all cache refs     [61.43%]
+     2,916,818,414 L1-dcache-loads                                              [61.90%]
+       716,223,221 L1-dcache-load-misses     #   24.55% of all L1-dcache hits   [62.95%]
+        13,645,817 LLC-loads                                                    [52.85%]
+             7,533 LLC-load-misses           #    0.06% of all LL-cache hits    [52.57%]
+
+       0.206221390 seconds time elapsed
+
+
+real   0m0.223s
+user   0m11.861s
+sys    0m0.016s
+***********
+nthreads = 80
+maxn = 8000, nthreads = 80, NREP = 4000, querylen = 100
+query time = 0.232259
+total items = 15857
+total # of items on this level = 125
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16016000 32000000
+
+ Performance counter stats for './perf_test 80 8000':
+
+    35,599,236,993 cpu-cycles                #    0.000 GHz                     [50.84%]
+    13,269,981,672 instructions              #    0.37  insns per cycle         [63.07%]
+       174,055,904 cache-references                                             [62.41%]
+           267,989 cache-misses              #    0.154 % of all cache refs     [62.87%]
+     2,943,518,916 L1-dcache-loads                                              [63.09%]
+       958,401,995 L1-dcache-load-misses     #   32.56% of all L1-dcache hits   [63.23%]
+       174,666,465 LLC-loads                                                    [50.79%]
+            16,907 LLC-load-misses           #    0.01% of all LL-cache hits    [50.59%]
+
+       0.241104463 seconds time elapsed
+
+
+real   0m0.258s
+user   0m15.377s
+sys    0m0.020s
+***********
+nthreads = 80
+maxn = 16000, nthreads = 80, NREP = 2000, querylen = 200
+query time = 0.286423
+total items = 31641
+total # of items on this level = 262
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15816000 32000000
+
+ Performance counter stats for './perf_test 80 16000':
+
+    49,118,918,477 cpu-cycles                #    0.000 GHz                     [50.59%]
+    13,744,753,317 instructions              #    0.28  insns per cycle         [63.08%]
+       586,263,437 cache-references                                             [63.24%]
+           145,175 cache-misses              #    0.025 % of all cache refs     [62.89%]
+     2,923,398,393 L1-dcache-loads                                              [62.63%]
+     1,118,471,708 L1-dcache-load-misses     #   38.26% of all L1-dcache hits   [62.38%]
+       584,354,242 LLC-loads                                                    [50.14%]
+           124,821 LLC-load-misses           #    0.02% of all LL-cache hits    [50.43%]
+
+       0.306694427 seconds time elapsed
+
+
+real   0m0.320s
+user   0m20.577s
+sys    0m0.028s
+***********
+nthreads = 80
+maxn = 32000, nthreads = 80, NREP = 1000, querylen = 400
+query time = 0.376900
+total items = 63155
+total # of items on this level = 488
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15966000 32000000
+
+ Performance counter stats for './perf_test 80 32000':
+
+    52,982,587,803 cpu-cycles                #    0.000 GHz                     [50.04%]
+    13,625,238,076 instructions              #    0.26  insns per cycle         [62.79%]
+       761,329,061 cache-references                                             [63.17%]
+           419,341 cache-misses              #    0.055 % of all cache refs     [63.90%]
+     2,909,747,143 L1-dcache-loads                                              [63.58%]
+     1,254,908,322 L1-dcache-load-misses     #   43.13% of all L1-dcache hits   [62.83%]
+       756,799,680 LLC-loads                                                    [49.25%]
+           204,798 LLC-load-misses           #    0.03% of all LL-cache hits    [49.59%]
+
+       0.432832666 seconds time elapsed
+
+
+real   0m0.450s
+user   0m22.293s
+sys    0m0.028s
+***********
+nthreads = 80
+maxn = 64000, nthreads = 80, NREP = 500, querylen = 800
+query time = 0.359723
+total items = 127357
+total # of items on this level = 1017
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15983000 32000000
+
+ Performance counter stats for './perf_test 80 64000':
+
+    59,386,242,739 cpu-cycles                #    0.000 GHz                     [50.46%]
+    13,776,603,350 instructions              #    0.23  insns per cycle         [62.31%]
+       900,022,060 cache-references                                             [61.54%]
+         1,144,477 cache-misses              #    0.127 % of all cache refs     [61.76%]
+     2,949,547,742 L1-dcache-loads                                              [62.12%]
+     1,401,944,013 L1-dcache-load-misses     #   47.53% of all L1-dcache hits   [62.93%]
+       891,211,915 LLC-loads                                                    [51.83%]
+            92,538 LLC-load-misses           #    0.01% of all LL-cache hits    [51.31%]
+
+       0.591371558 seconds time elapsed
+
+
+real   0m0.608s
+user   0m24.914s
+sys    0m0.024s
+***********
+nthreads = 80
+maxn = 128000, nthreads = 80, NREP = 250, querylen = 1600
+query time = 0.409711
+total items = 255080
+total # of items on this level = 2043
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16008000 32000000
+
+ Performance counter stats for './perf_test 80 128000':
+
+    67,253,434,149 cpu-cycles                #    0.000 GHz                     [49.33%]
+    14,217,115,000 instructions              #    0.21  insns per cycle         [62.19%]
+     1,059,661,054 cache-references                                             [62.58%]
+         2,265,814 cache-misses              #    0.214 % of all cache refs     [63.39%]
+     3,050,422,624 L1-dcache-loads                                              [63.82%]
+     1,609,980,106 L1-dcache-load-misses     #   52.78% of all L1-dcache hits   [63.42%]
+     1,059,979,496 LLC-loads                                                    [49.92%]
+           251,081 LLC-load-misses           #    0.02% of all LL-cache hits    [49.29%]
+
+       1.625135076 seconds time elapsed
+
+
+real   0m1.641s
+user   0m28.226s
+sys    0m0.044s
+***********
+nthreads = 80
+maxn = 256000, nthreads = 80, NREP = 125, querylen = 3200
+query time = 0.500587
+total items = 506940
+total # of items on this level = 4030
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 16000125 32000000
+
+ Performance counter stats for './perf_test 80 256000':
+
+    89,627,188,002 cpu-cycles                #    0.000 GHz                     [50.01%]
+    15,846,536,000 instructions              #    0.18  insns per cycle         [62.49%]
+     1,438,883,541 cache-references                                             [62.03%]
+        10,695,673 cache-misses              #    0.743 % of all cache refs     [62.36%]
+     3,506,064,877 L1-dcache-loads                                              [62.70%]
+     2,161,898,826 L1-dcache-load-misses     #   61.66% of all L1-dcache hits   [62.95%]
+     1,432,634,331 LLC-loads                                                    [50.80%]
+         9,052,112 LLC-load-misses           #    0.63% of all LL-cache hits    [50.58%]
+
+       7.365163294 seconds time elapsed
+
+
+real   0m7.381s
+user   0m37.586s
+sys    0m0.072s
+***********
+nthreads = 80
+maxn = 512000, nthreads = 80, NREP = 62, querylen = 6400
+query time = 0.607535
+total items = 1017419
+total # of items on this level = 8253
+positionSum = 0, nupdates = 0, avg. landing position = -nan
+total hthits, found, queries: 0 15882602 31744000
+
+ Performance counter stats for './perf_test 80 512000':
+
+   195,605,773,606 cpu-cycles                #    0.000 GHz                     [50.27%]
+    21,951,897,697 instructions              #    0.11  insns per cycle         [62.78%]
+     3,314,772,842 cache-references                                             [62.49%]
+       157,188,639 cache-misses              #    4.742 % of all cache refs     [62.31%]
+     5,199,071,008 L1-dcache-loads                                              [62.41%]
+     4,386,520,866 L1-dcache-load-misses     #   84.37% of all L1-dcache hits   [62.56%]
+     3,293,895,822 LLC-loads                                                    [50.23%]
+       157,619,053 LLC-load-misses           #    4.79% of all LL-cache hits    [50.35%]
+
+      40.213127003 seconds time elapsed
+
+
+real  0m40.231s
+user  1m22.001s
+sys   0m0.120s
+
+real  2m53.493s
+user  12m29.803s
+sys   0m1.144s
